@@ -1,10 +1,11 @@
 .container__small-card {
     display: flex;
     flex-direction: column;
+    width: 700px;
 }
 
 .container__small-card__content {
-    width: 700px;
+    width: 100%;
     height: calc(135px);
 
     display: flex;
@@ -29,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-indent: 10px;
 }
 
 .container__small-card__separator {
